@@ -23,7 +23,6 @@
   </head>
 
   <body>
-    <!-- Hello -->
     <header class="header" id="header">
       <a href="index.html" class="logo"
         ><span class="main-icon"></span><span>Ouahab</span></a
@@ -123,8 +122,8 @@
     <script>
       function downloadFile() {
         const link = document.createElement('a');
-        link.href = 'Assets/Files/Resume.pdf'; // relative path to your file
-        link.download = 'Resume.pdf';   // the name it'll be saved as
+        link.href = 'Assets/Files/Resume.pdf'; 
+        link.download = 'Resume.pdf';  
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
